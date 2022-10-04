@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 25vh;
     width: 100%;
     background-image: url("/puissance-4/assets/img/header.jpg");
     color: white;
@@ -14,17 +14,20 @@ nav {
     font-weight: bold;
 }
 
-nav2 {
+.deux {
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     font-weight: bold;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
-    margin: 10px;
-}
+    margin-top: 10px;
+} 
 
 li {
     list-style-type: none;
@@ -34,7 +37,7 @@ nav a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    margin: 0px 5px;
+    margin: 0px 10px;
 }
 
 nav p {
@@ -58,9 +61,10 @@ h1 {
 }
 
 h2 {
-    color: rgb(186, 186, 186);
-    font-weight: lighter;
+    color : white;
+    margin-bottom: 2%;
 }
+
 
 .titles {
     width: 100%;
@@ -72,15 +76,13 @@ h2 {
     text-align: center;
 }
 
-header input {
+.deux input {
+    margin: 1%;
     background-color: #EC9122;
     padding: 15px 35px;
     color: white;
+    width: 25%;
     border: none;
+    size: 40;
 }
 
-.titles * {
-    margin: 10px 0px;
-
-
-}
