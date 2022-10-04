@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contact-page.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-page</title>
+</head>
+<body>
+
+    <div class="parent">
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Votre prénom...">
+            
+            <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lastname" placeholder="Votre nom...">
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="France">France</option>
+                <option value="Etats-Unis">Etats-Unis</option>
+                <option value="Afrique">Afrique</option>
+                <option value="Allemagne">Allemagne</option>
+                <option value="Espagne">Espagne/option>
+                <option value="Asie">Asie</option>
+                <option value="Belgique">Belgique</option>
+                <option value="Suisse">Suisse</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="Autre">Autre</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea name="subject" id="subject" placeholder="Ecrire quelque chose" style="height: 200px"></textarea>
+
+            <input type="submit" value="Envoyer">
+
+            
+        </form>
+    </div>
+</body>
+</html>
