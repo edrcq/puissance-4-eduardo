@@ -1,0 +1,18 @@
+.title {
+    
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    background: linear-gradient(-45deg, #ee7752,
+            #e73c7e, #23a6d5, #23d5ab);
+
+    background-size: 300% 300%;
+    animation: gradient 15s ease-in-out infinite;
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+}
