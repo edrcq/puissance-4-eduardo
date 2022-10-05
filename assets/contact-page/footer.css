@@ -1,0 +1,33 @@
+footer {
+    
+    text-align: flex-end;
+    padding: 1px;
+    background-color: #282657;
+    color: white;
+    margin-top: 35%;
+    margin-bottom: 10%;
+    
+  }
+
+.indivfooted {
+
+    background-color: darkgrey;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 10%;
+
+}   
+
+.indivfooted1 {
+    
+    text-indent: 30px;
+    color: white;
+}
+
+.testing {
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+}
