@@ -2,6 +2,16 @@
     position: fixed;
     bottom: 0px;
     right: 0px;
+    width: 300px;
+    background-color: rgba(240, 248, 255, 0.752);
+    max-height: 50vh;
+    transform: translateY(305px);
+    transition: transform 500ms ease-in-out;
+
+}
+
+#chat:hover {
+    transform: translateY(0px);
 }
 
 .hchat {
@@ -9,7 +19,6 @@
     flex-direction: row;
     align-items: center;
     background-color: rgb(21, 129, 165);
-    width: 300px;
     height: 40px;
 }
 
@@ -25,4 +34,65 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.chat-body {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.user-msg,
+.sav-msg {
+    display: flex;
+    flex-direction: column;
+    margin:0 10px;
+}
+
+.user-msg{
+    margin-left: auto;
+}
+
+.msg {
+    border-radius: 30px;
+    background-color: rgb(0, 72, 255);
+    width: fit-content;
+    padding: 10px;
+}
+
+.sav {
+    background-color: rgb(19, 64, 140);
+}
+
+.date-msg{
+    color: grey;
+}
+
+.user-name,.sav-name{
+    color: grey;
+}
+
+#me{
+    margin-left: 80px;  /* bizzarree */
+}
+
+.chat-footer{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.chat-footer input[type="text"]{
+    padding: 5px;
+    border: black 1px solid;
+    font-family: 'Open Sans';
+}
+.chat-footer input[type="submit"]{
+    padding: 5px;
+    border: none;
+    font-family: 'Open Sans';
+}
+
+#hello {
+   margin-left: auto;
 }
