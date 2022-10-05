@@ -47,7 +47,63 @@ body{
   margin: 10px;
 }
 
+.card-classement {
+  background: #3621818c ;
+  box-shadow: 0 5px 8px 0 black;
+  transition: 0.3s;
+  width: 13%;
+  height: 85%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.card-top {
+  background: #3621818c ;
+  box-shadow: 0 5px 8px 0 black;
+  transition: 0.3s;
+  width: 11%;
+  height: 85%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.card-left {
+  background: #3621818c ;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  width: 13%;
+  height: 85%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.card-right {
+  background: #3621818c ;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  width: 15%;
+  height: 85%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
 .card:hover {
+  box-shadow: 0 8px 16px 0 white;
+}
+
+.card-classement:hover {
+  box-shadow: 0 8px 16px 0 white;
+}
+
+.card-top:hover {
+  box-shadow: 0 8px 16px 0 white;
+}
+
+.card-left:hover {
+  box-shadow: 0 8px 16px 0 white;
+}
+
+.card-right:hover {
   box-shadow: 0 8px 16px 0 white;
 }
 
@@ -60,6 +116,7 @@ img {
 
 .container {
   padding: 2px 16px;
+  width: 85%;
 }
 
 .line {
