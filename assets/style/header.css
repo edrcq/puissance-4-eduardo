@@ -14,16 +14,13 @@ nav {
     font-weight: bold;
 }
 
-nav2 {
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-}
-
 nav ul {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 10px;
+    width: 450px;
+    justify-content: space-between;
 }
 
 li {
@@ -35,6 +32,11 @@ nav a {
     color: white;
     text-transform: uppercase;
     margin: 0px 5px;
+    font-size: 15px;
+}
+
+nav a:hover{
+    text-decoration:underline;
 }
 
 nav p {
