@@ -13,6 +13,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     font-weight: bold;
+    
 }
 
 nav ul {
@@ -76,6 +77,4 @@ header input {
 
 .titles * {
     margin: 10px 0px;
-
-
 }
