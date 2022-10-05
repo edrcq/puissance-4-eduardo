@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="body.css">
-    <link rel="stylesheet" href="head.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact-page</title>
+    <header class="title">NOUS CONTACTER</header>
 
-    <h1 class="title">NOUS CONTACTER</h1>
+    
 
 </head>
+
 <body>
-    
-    
+
+
 
     <div class="parent">
         <form action="action_page.php">
 
-            <label class="NameColor" for="fname" >Prénom</label>
-                <input class="inputfirstname" type="text" id="fname" name="firstname" placeholder="Votre prénom...">
-            
-            <label class="lastnameColor" for="lname" class="">Nom</label>
-                <input class="inputlastname" type="text" name="lname" id="lastname" placeholder="Votre nom...">
+            <label class="NameColor" for="fname">Prénom</label>
+            <input class="inputfirstname" type="text" id="fname" name="firstname" placeholder="Votre prénom...">
 
-            <label class="countryColor" for="country">Country</label>
+            <label class="lastnameColor" for="lname">Nom</label>
+            <input class="inputlastname" type="text" name="lname" id="lastname" placeholder="Votre nom...">
+
+            <label class="countryColor" for="country">Pays</label>
             <select class="choosecountry" name="country" id="country">
 
                 <option value="France">France</option>
@@ -40,14 +43,17 @@
                 <option value="Autre">Autre</option>
             </select>
 
-            <label  class="subjectcolor" for="subject">Sujet du contact</label>
-            <textarea class="writeHere" name="subject" id="subject" placeholder="Ecrivez quelque chose" style="height: 200px"></textarea>
+            <label class="subjectcolor" for="subject">Sujet du contact</label>
+            <textarea class="writeHere" name="subject" id="subject" placeholder="Ecrivez quelque chose..."
+                style="height: 200px"></textarea>
 
             <input class="sendcolor" type="submit" value="Envoyer">
 
-            
+
         </form>
     </div>
+
+    
 
     <footer>
         <div class="informations">
@@ -55,20 +61,17 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt officia tempora</p>
 
             <div class="coord">
-                <p class="coord-name">Email:</p>
-                <p>monmail@gmail.com</p>
+                <p class="coord-name">Email: monmail@gmail.com</p>
             </div>
             <div class="coord">
-                <p class="coord-name">Tel:</p>
-                <p>07 50 23 20 23</p>
+                <p class="coord-name">Tel: 07 50 23 20 23</p>
             </div>
             <div class="coord">
-                <p class="coord-name">Location:</p>
-                <p>Panam</p>
+                <p class="coord-name">Location: Panam</p>
             </div>
 
             <div class="media-links">
-                <a class="media-link" href="#"><img src="/puissance-4/assets/img/icons8-facebook-nouveau.svg"
+                <a class="media-link" href="#"><img src="../img/icons8-facebook-nouveau.svg"
                         alt=""></a>
                 <a class="media-link" href="#">😍</a>
                 <a class="media-link" href="#">👽</a>
@@ -88,8 +91,9 @@
             </ul>
         </div>
     </footer>
-        
-        
-      </footer>
+
+
+    </footer>
 </body>
+
 </html>
