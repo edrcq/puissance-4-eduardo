@@ -4,9 +4,7 @@
     align-items: flex-end;
     width: 100%;
     flex-direction: row;
-
-
-
+    margin: 50px 0px;
 }
 
 #formulaire form {
@@ -54,6 +52,11 @@
 
 #myaccountheader {
     height: 50vh;
-    background-image: url("/puissance-4/assets/img/andreasbg.png");
+    background-image: url("/assets/img/andreasbg.png");
     box-shadow: none;
+}
+
+#game-controller{
+    width: 200px;
+    margin: auto 0;
 }
