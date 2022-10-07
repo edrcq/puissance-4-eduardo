@@ -9,13 +9,15 @@
 body {
     height: 100vh;
     width: 100%;
-    background: #3621818c;
+    background-position: center;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7648585.jpg&f=1&nofb=1&ipt=9a48a2e8e14aaed1146cb2e7d96bec7fc75589a1a3c9fea0ded2b18bdf2b8749&ipo=images');
 }
 
 header {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: #3621818c;
 }
 
 nav {
@@ -58,11 +60,12 @@ nav p {
 
 .top-img {
     display: flex;
-
     background-position: top;
-    background-attachment: fixed;
+    background-attachment: local;
     background-repeat: repeat-x;
     background-image: url("maxresdefault-1085172694.jpeg");
+    background-blend-mode: lighten;
+    background-color: black;
     height: 100%;
     width: 100%;
     align-items: center;
@@ -73,7 +76,6 @@ nav p {
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.wallhere.com%2Fphotos%2Fea%2F27%2Fanime_girls_Genshin_Impact_Diona_Genshin_Impact_Klee_Genshin_Impact_Qiqi_Genshin_Impact-2026279.jpg!d&f=1&nofb=1&ipt=76e8b35e86493627c3a907e606bf3bebd4a838892cb8a15eaa48ed1ad57a9a39&ipo=images");
     height: 80%;
     width: 12%;
-    opacity: 100%;
     border-radius: 5px 5px 0 0;
     border-radius: 50%;
     margin-left: 1%;
@@ -87,53 +89,20 @@ nav p {
     width: 100%;
 }
 
-.card-score {
-    display: grid;
-    grid-template-areas: 'header header''main content''main content''main content''main content''main content''main content''main content''main content''main content''main content''main content''main content''main content';
-    box-shadow: 0 5px 8px 0 black;
-    transition: 0.3s;
-    width: 95%;
-    height: 85%;
-    border-radius: 10px;
-}
-
-.card-class {
+.card {
     display: flex;
-    width: 90%;
-    height: 95%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
+    height: 85%;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 white;
-}
-
-.card-score:hover {
-    box-shadow: 0 8px 16px 0 green;
-}
-
-.card-rank:hover {
-    box-shadow: 0 8px 16px 0 blue;
-}
-
-img {
-    border-radius: 5px 5px 0 0;
-    border-radius: 20%;
-    width: 50%;
-    height: 40%;
+    box-shadow: 0 8px 16px 0 cyan;
 }
 
 .container {
     padding: 2px 16px;
-    width: 85%;
-}
-
-h1 {
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
@@ -143,46 +112,26 @@ h3 {
     margin-left: 2%;
 }
 
-h4 {
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h5 {
-    display: flex;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-    align-items: center;
-    font-size: large;
-}
-
-#customers {
+#table {
     font-family: 'Open Sans', sans-serif;
     border-collapse: collapse;
     width: 100%;
     text-align: center;
 }
 
-#customers td,
-#customers th {
-    border: 1px solid #ddd;
+#table td,
+#table th {
+    border: 1px solid #3621818c;
     padding: 8px;
+    background-color: #3621818c;
 }
 
-#customers tr:nth-child(even) {
+#table tr:nth-child(even) {
     background-color: black;
 }
 
-#customers tr:hover {
-    background-color: gray;
-}
-
-#customers th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color: #3621818c;
-    color: white;
+#table tr:hover {
+    background-color: blueviolet;
 }
 
 table {
@@ -190,4 +139,28 @@ table {
     align-items: center;
     justify-content: center;
 
+}
+
+#paragraphs {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.paragraph {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.para-title {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
