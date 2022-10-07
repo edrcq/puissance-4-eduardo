@@ -35,8 +35,8 @@ nav a {
     font-size: 15px;
 }
 
-nav a:hover{
-    text-decoration:underline;
+nav a:hover {
+    text-decoration: underline;
 }
 
 nav p {
