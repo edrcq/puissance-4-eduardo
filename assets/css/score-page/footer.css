@@ -71,3 +71,8 @@ footer {
 .footer-nav li {
     margin: 10px 0px;
 }
+
+footer li,
+p {
+    color: white;
+}

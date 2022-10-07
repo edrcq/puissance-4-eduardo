@@ -9,7 +9,7 @@
 body {
     height: 100vh;
     width: 100%;
-    background-color: #3621818c;
+    background-color: #0D0A26;
 }
 
 .top-info {
@@ -85,6 +85,7 @@ h3 {
     border: 1px solid #3621818c;
     padding: 8px;
     background-color: #3621818c;
+
 }
 
 #table tr:nth-child(even) {
@@ -99,7 +100,6 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #paragraphs {
@@ -124,4 +124,9 @@ table {
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+}
+
+#table th,
+td {
+    color: white
 }
