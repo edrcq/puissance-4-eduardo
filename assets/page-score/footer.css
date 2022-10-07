@@ -1,10 +1,10 @@
 footer {
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: #0D0A26;
-    height: 300px;
-    margin-top: 50px;
+    height: 40%;
 }
 
 .footer-title {
@@ -24,6 +24,7 @@ footer {
 }
 
 .informations {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
 }
