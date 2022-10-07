@@ -10,47 +10,7 @@ body {
     height: 100vh;
     width: 100%;
     background-position: center;
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7648585.jpg&f=1&nofb=1&ipt=9a48a2e8e14aaed1146cb2e7d96bec7fc75589a1a3c9fea0ded2b18bdf2b8749&ipo=images');
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: #3621818c;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
-}
-
-li {
-    list-style-type: none;
-}
-
-
-nav a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    margin: 0px 5px;
-}
-
-nav p {
-    /*     margin-left: 15%; */
-    margin-top: 10px;
-    font-size: 15px;
-    letter-spacing: 1px;
+    background-image: url("../../images/wp7648585-2526859516.jpeg");
 }
 
 .top-info {
@@ -63,7 +23,7 @@ nav p {
     background-position: top;
     background-attachment: local;
     background-repeat: repeat-x;
-    background-image: url("maxresdefault-1085172694.jpeg");
+    background-image: url("../../images/maxresdefault-1085172694.jpeg");
     background-blend-mode: lighten;
     background-color: black;
     height: 100%;
@@ -73,7 +33,7 @@ nav p {
 
 .profile-img {
     background-position: top;
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.wallhere.com%2Fphotos%2Fea%2F27%2Fanime_girls_Genshin_Impact_Diona_Genshin_Impact_Klee_Genshin_Impact_Qiqi_Genshin_Impact-2026279.jpg!d&f=1&nofb=1&ipt=76e8b35e86493627c3a907e606bf3bebd4a838892cb8a15eaa48ed1ad57a9a39&ipo=images");
+    background-image: url("../../images/anime_girls_Genshin_Impact_Diona_Genshin_Impact_Klee_Genshin_Impact_Qiqi_Genshin_Impact-2026279-577393110.jpeg");
     height: 80%;
     width: 12%;
     border-radius: 5px 5px 0 0;
