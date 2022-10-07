@@ -3,8 +3,8 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     background-color: #0D0A26;
-    height: 500px;
-    margin-top: 200px;
+    height: 300px;
+    margin-top: 50px;
 }
 
 .footer-title {
@@ -29,7 +29,7 @@ footer {
 }
 
 .informations p {
-    margin: 20px 0px
+    margin: 10px 0px
 }
 
 
