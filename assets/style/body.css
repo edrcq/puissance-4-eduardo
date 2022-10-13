@@ -203,8 +203,8 @@
    height: 300px;
    padding: 0px 40px;
    margin: 10px 20px;
-   transition: transform 1s ease-in-out, box-shadow 1s ease-in-out;
    border: 2px #312e49 solid;
+   transition: transform 1s ease-in-out, box-shadow 1s ease-in-out;
  }
 
  .card:hover {
@@ -242,3 +242,4 @@
  .socials {
    margin-top: 15px;
  }
+
