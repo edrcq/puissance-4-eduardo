@@ -9,6 +9,7 @@ CREATE TABLE
     `score` int(10) unsigned NOT NULL,
     `game_time` timestamp NOT NULL DEFAULT current_timestamp(),
     PRIMARY KEY (`id`)
+    UNIQUE KEY `FusionAll` (`player_id`, `game_id`, `game_difficulty`)
   ) ENGINE = InnoDB AUTO_INCREMENT = 0 DEFAULT CHARSET = utf8mb4
   
 
